@@ -6,11 +6,17 @@ const subtract = function (a, b) {
   return a - b;
 };
 
-const sum = function () {};
+const sum = function (numbers) {
+  return numbers.reduce((total, current) => total + current, 0);
+};
 
-const multiply = function () {};
+const multiply = function (numbers) {
+  return numbers.reduce((total, current) => total * current);
+};
 
-const power = function () {};
+const power = function (a, b) {
+  return a ** b;
+};
 
 const factorial = function () {};
 
